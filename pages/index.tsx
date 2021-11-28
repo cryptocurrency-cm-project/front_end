@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header"
-
+import Footer from "../components/Footer"
 const Home: NextPage = () => {
   const instance = axios.create({
     baseURL: "https://3.18.104.128:5000",
@@ -57,6 +57,7 @@ const Home: NextPage = () => {
           getApis
         </button>
       </main>
+      <Footer />
 
       <footer className={styles.footer}>
         <a
