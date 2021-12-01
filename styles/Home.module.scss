@@ -109,6 +109,19 @@
   margin-left: 0.5rem;
 }
 
+.bitCoinCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100;
+  border: solid 1px #000;
+  canvas {
+    width: 200px;
+    height: 200px;
+  }
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
