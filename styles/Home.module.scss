@@ -114,8 +114,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 400px;
-  width: 100;
+  height: fit-content;
+  padding: 24px 0;
+  width: 100%;
   border: solid 1px #000;
   canvas {
     width: 200px;
