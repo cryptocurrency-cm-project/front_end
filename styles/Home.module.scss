@@ -108,6 +108,42 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.tab {
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  &.on {
+    font-weight: bold;
+    color: #0070f3;
+    border-bottom: 3px solid #0070f3;
+  }
+}
+
+.wordCloud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 24px 0;
+
+  border: solid 1px #000;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+
+    svg {
+      height: 100%;
+    }
+  }
+}
 
 .bitCoinCart {
   display: flex;
@@ -123,6 +159,7 @@
     height: 200px;
   }
 }
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

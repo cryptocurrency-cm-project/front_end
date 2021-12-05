@@ -8,7 +8,9 @@
     justify-content: center;
     width: 100px;
     border-bottom: 4px solid rgb(255, 255, 255);
-    &.active {
+    &.on {
+      font-weight: bold;
+      color: rgb(0, 174, 255);
       border-bottom: 4px solid rgb(0, 174, 255);
     }
   }
